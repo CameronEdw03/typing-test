@@ -21,8 +21,7 @@ Test your typing speed and accuracy using random quotes fetched from multiple AP
 
 ## Demo
 
-![Screenshot](path_to_screenshot.png)  
-*Replace with your app screenshot or GIF*
+Live Demo Link: https://typing-test-smoky-ten.vercel.app/
 
 ---
 
