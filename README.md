@@ -1,12 +1,35 @@
-# React + Vite
+# Typing Speed Test App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant typing speed test application built with **React JS** and **Tailwind CSS**.  
+Test your typing speed and accuracy using random quotes fetched from multiple APIs with a fallback for offline use.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Fetches random quotes** from the [Quotable API](https://api.quotable.io/) as the main source.
+- Uses **multiple backup APIs** to fetch quotes if the main API is down.
+- Provides **offline fallback paragraphs** if all APIs fail.
+- **Dark mode toggle** for a comfortable user experience.
+- Timer countdown (60 seconds) to test typing speed.
+- Calculates and displays:
+  - Words per minute (WPM)
+  - Typing accuracy (%)
+- Clean UI styled with Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo
+
+![Screenshot](path_to_screenshot.png)  
+*Replace with your app screenshot or GIF*
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/typing-speed-test.git
+   cd typing-speed-test
